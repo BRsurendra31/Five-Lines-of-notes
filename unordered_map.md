@@ -44,25 +44,24 @@ map[1] is accessed. Since 1 is not in the map, it is inserted with a default val
 map[1] is incremented to 1.<br>
 map becomes {1: 1}<br>
 Second Iteration (i = 1):<br>
-
 arr[i] is 2<br>
 map[2] is accessed. Since 2 is not in the map, it is inserted with a default value of 0.<br>
 map[2] is incremented to 1.<br>
-map becomes {1: 1, 2: 1}<br>
-Third Iteration (i = 2):<br>
+map becomes {1: 1, 2: 1}<be>
 
+Third Iteration (i = 2):<br>
 arr[i] is 2<br>
 map[2] is accessed. 2 is already in the map with value 1.<br>
 map[2] is incremented to 2.<br>
-map becomes {1: 1, 2: 2}<br>
-Fourth Iteration (i = 3):<br>
+map becomes {1: 1, 2: 2}<be>
 
+Fourth Iteration (i = 3):<br>
 arr[i] is 3<br>
 map[3] is accessed. Since 3 is not in the map, it is inserted with a default value of 0.<br>
 map[3] is incremented to 1.<br>
-map becomes {1: 1, 2: 2, 3: 1}<br>
-Fifth Iteration (i = 4):<br>
+map becomes {1: 1, 2: 2, 3: 1}<be>
 
+Fifth Iteration (i = 4):<be>
 arr[i] is 1<br>
 map[1] is accessed. 1 is already in the map with value 1.<br>
 map[1] is incremented to 2. <br>
