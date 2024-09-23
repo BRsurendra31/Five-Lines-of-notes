@@ -36,35 +36,35 @@ Steps:
 Initial State:
 
 map is empty: {}
-arr is {1, 2, 2, 3, 1}
-First Iteration (i = 0):
+arr is {1, 2, 2, 3, 1} <br>
+First Iteration (i = 0):<br>
 
-arr[i] is 1
-map[1] is accessed. Since 1 is not in the map, it is inserted with a default value of 0.
-map[1] is incremented to 1.
-map becomes {1: 1}
-Second Iteration (i = 1):
+arr[i] is 1<b>
+map[1] is accessed. Since 1 is not in the map, it is inserted with a default value of 0.<br>
+map[1] is incremented to 1.<br>
+map becomes {1: 1}<br>
+Second Iteration (i = 1):<br>
 
-arr[i] is 2
-map[2] is accessed. Since 2 is not in the map, it is inserted with a default value of 0.
-map[2] is incremented to 1.
-map becomes {1: 1, 2: 1}
-Third Iteration (i = 2):
+arr[i] is 2<br>
+map[2] is accessed. Since 2 is not in the map, it is inserted with a default value of 0.<br>
+map[2] is incremented to 1.<br>
+map becomes {1: 1, 2: 1}<br>
+Third Iteration (i = 2):<br>
 
-arr[i] is 2
-map[2] is accessed. 2 is already in the map with value 1.
-map[2] is incremented to 2.
-map becomes {1: 1, 2: 2}
-Fourth Iteration (i = 3):
+arr[i] is 2<br>
+map[2] is accessed. 2 is already in the map with value 1.<br>
+map[2] is incremented to 2.<br>
+map becomes {1: 1, 2: 2}<br>
+Fourth Iteration (i = 3):<br>
 
-arr[i] is 3
-map[3] is accessed. Since 3 is not in the map, it is inserted with a default value of 0.
-map[3] is incremented to 1.
-map becomes {1: 1, 2: 2, 3: 1}
-Fifth Iteration (i = 4):
+arr[i] is 3<br>
+map[3] is accessed. Since 3 is not in the map, it is inserted with a default value of 0.<br>
+map[3] is incremented to 1.<br>
+map becomes {1: 1, 2: 2, 3: 1}<br>
+Fifth Iteration (i = 4):<br>
 
-arr[i] is 1
-map[1] is accessed. 1 is already in the map with value 1.
-map[1] is incremented to 2.
-map becomes {1: 2, 2: 2, 3: 1}
+arr[i] is 1<br>
+map[1] is accessed. 1 is already in the map with value 1.<br>
+map[1] is incremented to 2. <br>
+map becomes {1: 2, 2: 2, 3: 1}<br>
 
