@@ -37,12 +37,13 @@ Initial State:
 
 map is empty: {}
 arr is {1, 2, 2, 3, 1} <br>
-First Iteration (i = 0):<br>
 
+First Iteration (i = 0):<br>
 arr[i] is 1<b>
 map[1] is accessed. Since 1 is not in the map, it is inserted with a default value of 0.<br>
 map[1] is incremented to 1.<br>
 map becomes {1: 1}<br>
+
 Second Iteration (i = 1):<br>
 arr[i] is 2<br>
 map[2] is accessed. Since 2 is not in the map, it is inserted with a default value of 0.<br>
